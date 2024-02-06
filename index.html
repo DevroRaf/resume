@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ======= CSS ======= -->
+    <link rel="stylesheet" href="assets/resume.css">
+
+
+    <!-- ======= ICONS ======= -->
+    <link rel="stylesheet" href="assets/icons/css/all.css">
+
+
+    <!-- ======= HTML2PDF ======== -->
+    <script src="assets/js/html2pdf.bundle.min.js">
+    </script>
+
+    
+    <title>Limbo</title>
+</head>
+<body>
+    
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Limbo</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="fa-solid fa-house nav__icon active-link"></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class="fa-solid fa-user nav__icon"></i>Profile
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class="fa-solid fa-book nav__icon"></i>Education
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="fa-solid fa-receipt nav__icon"></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class="fa-solid fa-suitcase nav__icon"></i>Experience
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#certificates" class="nav__link">
+                            <i class="fa-solid fa-award nav__icon"></i>Certificates
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#references" class="nav__link">
+                            <i class="fa-solid fa-laptop-file nav__icon"></i>Projects
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa-solid fa-border-all"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="1-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+
+                <!-- ======= HOME ======= -->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/media/pp.jpg" class="home__img">
+
+                            <h1 class="home__title">MUKHAMMADSODIK <b>SHAVKATBEKOV</b></h1>
+                            <h3 class="home__profession">Python Django Developer</h3>
+
+                            <!-- Button to download CV saved in the pdf folder -->
+                            <div>
+                                <a download="" href="assets/pdf/limboResume.pdf" class="home__button-movil">Download</a>
+                            </div>
+                        </div>
+
+                        <div class="home__address bd-grid">
+                            <span class="information">
+                                <i class="fa-solid fa-location-dot home__icon"></i> Tashkent c. Uzbekistan
+                            </span>
+                            <span class="information">
+                                <i class="fa-solid fa-envelope home__icon"></i> devroraf25@gmail.com
+                            </span>
+                            <span class="information">
+                                <i class="fa-solid fa-phone home__icon"></i> + 998 88 600 00 89
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- theme change button -->
+                    <i class="fa-solid fa-moon change-theme" title="Theme" id="theme-button"></i>
+
+                    <!-- button to generate and downlaod the pdf. -->
+                    <i class="fa fa-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+
+
+                </section>
+
+
+                <!-- ======= SOCIAL ======= -->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+
+                    <div class="social__container bd-grid">
+                        <a href="https://linkedin.com/in/limbo03" target="_blank" class="social__link">
+                            <i class="fa-brands fa-linkedin social__icon"></i> My Linkedin
+                        </a>
+                        <a href="http://www.facebook.com/profile.php?id=61556318876832&mibextid=ZbWKwL" target="_blank" class="social__link">
+                            <i class="fa-brands fa-square-facebook social__icon"></i> My Facebook
+                        </a>
+                        <a href="https://www.t.me/limbo_03" target="_blank" class="social__link">
+                            <i class="fa-brands fa-telegram social__icon"></i> My Telegram
+                        </a>
+                    </div>
+                </section>
+
+                <!-- ======= PROFILE ======= -->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+
+                    <p class="profile__description">
+                        Junior IUT Student <hr>
+                        - Ability to multitask and well motivated.<br>
+                        - Creative thinking and decision making. <br>
+                        - Conscientiousness and responsibility. <br>
+                        - Emotional stability and learning ability. <br>
+                    </p>
+                </section>
+
+                <!-- ======= EDUCATION ======= -->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">SOFTWARE DEVELOPER</h3>
+                                <span class="education__studies">INHA University in Tashkent</span>
+                                <span class="education__year">2021 - 2025</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">PYTHON WEB DEVELOPER</h3>
+                                <span class="education__studies">Mosh Hamedani online</span>
+                                <span class="education__year">2021</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <!-- <span class="education__line"></span> -->
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">DJANGO/DATABASES</h3>
+                                <span class="education__studies">PDP</span>
+                                <span class="education__year">2022 - 2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ======= SKILLS ======= -->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Python
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Django
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> PostgreSQL
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> SQLite
+                            </li>
+                        </ul>
+
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> HTML
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> CSS
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> JS
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <div class="resume__right">
+                <!-- ======= EXPERIENCE ======= -->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">PYTHON DEVELOPER</h3>
+                                <span class="experience__company">From 2022 to 2023</span>
+                                <p class="experience__description">Have done some projects with databases (SQLite). Worked in a company dedicating the best responsibility in the area that corresponded, delivering the best results for the company and improved productivity.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">ACCOUNTING CONTROL</h3>
+                                <span class="experience__company">2021</span>
+                                <p class="experience__description">Accurately process orders and payments. Control over purchases and other expenses.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ======= CERTIFICATES ======= -->
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">Certificates</h2>
+
+                    <div class="certificate__container bd-grid">
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">IELTS</h3>
+                            <p class="certificate__description">Overall 6 <br>
+                                Speaking 6 - Listening 6.5 <br> Reading 6 - Writing 6</p><hr>
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Data Structures and Algorithms</h3>
+                            <p class="certificate__description">For completeing how to differentiate between linear data structures like linkedlists, arrays, arraylists, stacks, and queues, and select the correct structure for given situation.</p><hr>
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">PDP</h3>
+                            <p class="certificate__description">For completeing python web course and databases.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ======= REFERENCES ======= -->
+                <section class="references section" id="references">
+                    <h2 class="section-title">Projects</h2>
+
+                    <div class="references__container bd-grid">
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">Customer Management App</span>
+                            <h3 class="references__title">Django/PostgreSQL</h3>
+                            <ul class="references__contact">
+                                <li>Web application for a firm that sells mostly furnitures for restaurants and hotels and and for an admin that manages all customers.</li>
+                                <li><a href="https://meproject.pythonanywhere.com/" style="color: grey;">Click here to see.</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">Todo App</span>
+                            <h3 class="references__title">Django</h3>
+                            <ul class="references__contact">
+                                <li>Todo application that helps and reminds you of completeing your daily tasks. Also created with django.</li>
+                                <!-- <li>Link: soon</li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ======= LANGUAGES ======= -->
+                <section class="languages section">
+                    <h2 class="section-title">Languages</h2>
+
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>English
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Uzbek
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Russian
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- ======= INTERESTS ======= -->
+                <section class="interests section">
+                    <h2 class="section-title">Interests</h2>
+
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class="fa-solid fa-headphones interests__icon"></i>
+                            <span class="interests__name">Music</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="fa-solid fa-dumbbell interests__icon"></i>
+                            <span class="interests__name">Fitness</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="fa-solid fa-book interests__icon"></i>
+                            <span class="interests__name">Reading</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="fa-solid fa-palette interests__icon"></i>
+                            <span class="interests__name">Drawing</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+    </main>
+
+    <!-- ======= SCROLL TOP ======= -->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="fa-solid fa-arrow-up scrolltop__icon"></i>
+    </a>
+
+    <!-- ======= MAIN JS ======= -->
+    <script src="assets/js/main.js">
+    </script>
+
+    
+
+</body>
+</html>
